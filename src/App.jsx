@@ -1,4 +1,4 @@
-import React from "react";
+import "react";
 import Header from "./components/Header";
 import NewsSlider from "./components/NewsSlider";
 import FakeNewsDetection from "./components/FakeNewsDetection";
