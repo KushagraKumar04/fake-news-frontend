@@ -1,0 +1,35 @@
+/* Header.css */
+.header-container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('img2.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Relative positioning to avoid disrupting page flow */
+    object-fit:fill;
+  }
+  
+  .header-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    z-index: 1; /* Ensure text is above the background */
+  }
+  
+  /* Add styling for the rest of the page to make sure it scrolls */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-content {
+    padding: 2rem;
+  }
+  
